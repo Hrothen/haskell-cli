@@ -1,13 +1,13 @@
 name:                {{cookiecutter.name}}
 version:             0.1.0.0
 synopsis:            {{cookiecutter.description}}
-{% if cookiecutter.git_host == "Github" %}
+{%- if cookiecutter.git_host == "Github" %}
 homepage:            https://github.com/{{cookiecutter.git_username}}/{{cookiecutter.name}}#readme
-{% elif cookiecutter.git_host == "Gitlab" %}
+{%- elif cookiecutter.git_host == "Gitlab" %}
 homepage:            https://gitlab.com/{{cookiecutter.git_username}}/{{cookiecutter.name}}#readme
-{% else %}
+{%- else %}
 -- homepage:
-{% endif %}
+{%- endif %}
 license:             BSD3
 license-file:        LICENSE
 author:              {{cookiecutter.author_name}}
