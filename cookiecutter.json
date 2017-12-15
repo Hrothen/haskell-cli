@@ -1,0 +1,11 @@
+{
+  "author_name": "Hackerman",
+  "category": "Tools",
+  "description": "A haskell cli program",
+  "email": "[email protected]",
+  "git_host": ["Github", "Gitlab", "None"],
+  "git_username": "Hackerman",
+  "name": "haskell-cli-app",
+  "year": "{% now 'utc', '%Y' %}",
+  "_extensions": ["jinja2_time.TimeExtension"]
+}
