@@ -1,7 +1,7 @@
 -- |
 -- Module      :  Main
 -- Copyright   :  {{cookiecutter.author_name}} {{cookiecutter.year}}
--- License     :  BSD3
+-- License     :  {{cookiecutter.license}}
 --
 -- Maintainer  :  {{cookiecutter.email}}
 -- Stability   :  experimental

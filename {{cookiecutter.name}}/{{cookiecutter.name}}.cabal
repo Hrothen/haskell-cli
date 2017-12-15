@@ -8,7 +8,7 @@ homepage:            https://gitlab.com/{{cookiecutter.git_username}}/{{cookiecu
 {%- else %}
 -- homepage:
 {%- endif %}
-license:             BSD3
+license:             {{cookiecutter.license}}
 license-file:        LICENSE
 author:              {{cookiecutter.author_name}}
 maintainer:          {{cookiecutter.email}}

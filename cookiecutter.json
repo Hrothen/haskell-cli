@@ -5,6 +5,7 @@
   "email": "[email protected]",
   "git_host": ["Github", "Gitlab", "None"],
   "git_username": "Hackerman",
+  "license": ["BSD3", "MIT", "GPL-3", "LGPL", "Apache-2.0"],
   "name": "haskell-cli-app",
   "year": "{% now 'utc', '%Y' %}",
   "_extensions": ["jinja2_time.TimeExtension"]
