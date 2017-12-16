@@ -6,5 +6,5 @@ stack test
 {% if cookiecutter.git_host != "None" %}
 git init
 git add --all
-git commit -m 'Create project skelleton'
+git commit -m 'Create project skeleton'
 {% endif %}
